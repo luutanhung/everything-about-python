@@ -6,9 +6,13 @@
 ## Table of Contents
 * [Lists](#lists)
 * [License](#license)
+* [Authors](#authors)
 
 ## Lists
 
 ## License
 
 This project is distributed under MIT License. See `License.txt` for more details.
+
+## Authors
+- Lưu Tấn Hưng | [GitHub](https://github.com/luutanhung) | [X](https://x.com/luu_tan_hung)
