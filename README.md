@@ -1,4 +1,5 @@
 <div align="center">
+    <img src="assets/python_logo.png" alt="Python logo" width="70" height="70">
     <h2>Everything About Python</h2>
     <img src="https://img.shields.io/badge/python-3.13-brightgreen.svg" alt="Python 3.13" />
 </div>
@@ -44,13 +45,13 @@ print(chrs) # ['E', 'l', 'o', 'n', ' ', 'M', 'u', 's', 'k']
 # Go through each neighborhoods' house and give a greet
 intimate_neighborhoods = ["Phương", "Anh", "Lâm", "Khoa"]
 for neighborhood in intimate_neighborhoods:
-    print(f"Hi {neighborhood}. Have a good day!")
+    print(f"🙋 Hi {neighborhood}. Have a good day!")
 ```
 ```bash
-Hi Phương. Have a good day!
-Hi Anh. Have a good day!
-Hi Lâm. Have a good day!
-Hi Khoa. Have a good day!
+🙋 Hi Phương. Have a good day !
+🙋 Hi Anh. Have a good day!
+🙋 Hi Lâm. Have a good day!
+🙋 Hi Khoa. Have a good day!
 ```
 
 ## License
