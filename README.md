@@ -8,6 +8,7 @@
 * [Lists](#lists)
     * [Declarations](#state-you-want-to-hold-a-bunch-of-items)
     * [Loop](#pay-a-visit-to-each-elements)
+* [Regex](#regex)
 * [License](#license)
 * [Authors](#authors)
 
@@ -53,6 +54,12 @@ for neighborhood in intimate_neighborhoods:
 🙋 Hi Lâm. Have a good day!
 🙋 Hi Khoa. Have a good day!
 ```
+
+# Regex
+This section contains examples of regular expressions question to practice and solutions.
+
+- [Extract numbers](/regex/extract_numbers.py)
+- [Extract three-digit numbers that are not immediately followed by a letter](/regex//three_digit_numbers_not_followed_by_a_letter.py)
 
 ## License
 
