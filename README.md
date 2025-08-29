@@ -8,6 +8,7 @@
 * [Lists](#lists)
     * [Declarations](#state-you-want-to-hold-a-bunch-of-items)
     * [Loop](#pay-a-visit-to-each-elements)
+    * [Sort](#order-in-a-chaotic-world)
 * [Regex](#regex)
 * [License](#license)
 * [Authors](#authors)
@@ -55,7 +56,17 @@ for neighborhood in intimate_neighborhoods:
 🙋 Hi Khoa. Have a good day!
 ```
 
-# Regex
+### Order in a Chaotic World
+```python
+# Arrange elements in ascending order
+scientists: list[str] = ["Issac Newton", "Albert Einstein", "Niels Bohr", "Michael Faraday", "Max Born", "Johannes Kepler"]
+print(sorted(scientists))
+```
+```bash
+['Niels Bohr', 'Michael Faraday', 'Max Born', 'Johannes Kepler', 'Issac Newton', 'Albert Einstein']
+```
+
+## Regex
 This section contains examples of regular expressions question to practice and solutions.
 
 - [Extract numbers](/regex/extract_numbers.py)
