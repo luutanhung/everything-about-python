@@ -63,7 +63,7 @@ This section contains examples of regular expressions question to practice and s
 
 ## License
 
-This project is distributed under MIT License. See `License.txt` for more details.
+This project is distributed under MIT License. See [License.txt](/LICENSE.txt) for more details.
 
 ## Authors
 - Lưu Tấn Hưng | [GitHub](https://github.com/luutanhung) | [X](https://x.com/luu_tan_hung)
