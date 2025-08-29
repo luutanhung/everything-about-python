@@ -58,11 +58,17 @@ for neighborhood in intimate_neighborhoods:
 
 ### Order in a Chaotic World
 ```python
-# Arrange elements in ascending order
+# Declare a list of well-known scientists
 scientists: list[str] = ["Issac Newton", "Albert Einstein", "Niels Bohr", "Michael Faraday", "Max Born", "Johannes Kepler"]
+
+# Arrange elements in ascending order
 print(sorted(scientists))
+
+# Rearrange items in descending order
+print(sorted(scientists, reverse=True))
 ```
 ```bash
+['Albert Einstein', 'Issac Newton', 'Johannes Kepler', 'Max Born', 'Michael Faraday', 'Niels Bohr']
 ['Niels Bohr', 'Michael Faraday', 'Max Born', 'Johannes Kepler', 'Issac Newton', 'Albert Einstein']
 ```
 
