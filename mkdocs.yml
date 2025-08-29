@@ -1,1 +1,12 @@
-site_name: My Docs
+site_name: Everything About Python
+theme:
+  name: material
+  palette:
+    scheme: default
+    primary: indigo
+    accent: indigo
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - search.suggest
+    - search.highlight
