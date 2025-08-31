@@ -13,12 +13,13 @@ def base62_encode(num: str) -> str:
     Raises:
         TypeError: If `num` is not a positive integer.
 
-    >>> base62_encode(1234567890)
-    '1ly7vk'
-    >>> base62_encode(61)
-    'Z'
-    >>> base62_encode(0)
-    '0'
+    Examples:
+        >>> base62_encode(1234567890)
+        '1ly7vk'
+        >>> base62_encode(61)
+        'Z'
+        >>> base62_encode(0)
+        '0'
     """
 
     import string
@@ -38,9 +39,28 @@ def base62_encode(num: str) -> str:
 
 
 def base62_decode(s: str) -> int:
-    """
-    >>> base62_decode("1ly7vk")
-    1234567890
+    """Decodes a base62 encoded string into a positive integer.
+
+    Base62 encoding uses a set of 62 characters (0-9, a-z, A-Z) to represent a number. This function
+    reverses that process, converting the string back into its original integer value.
+
+    rgs:
+        s: The Base62 encoded string to decode.
+
+    Returns:
+        The decoded integer.
+
+    Raises:
+        TypeError: If the input is not a string.
+        ValueError: If the input string contains characters not in the Base62 set.
+
+    Examples:
+        >>> base62_decode("1ly7vk")
+        1234567890
+        >>> base62_decode("Z")
+        61
+        >>> base62_decode("0")
+        0
     """
 
     import string
