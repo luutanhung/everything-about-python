@@ -45,6 +45,9 @@ def base62_decode(s: str) -> int:
 
     import string
 
+    if not isinstance(s, str):
+        raise TypeError("Input must be a string")
+
     chars: list[str] = string.digits + string.ascii_letters
     char_mp = {chr: i for i, chr in enumerate(chars)}
     num: int = 0
