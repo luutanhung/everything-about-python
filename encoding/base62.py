@@ -6,6 +6,9 @@ def base62_encode(num: str) -> str:
 
     import string
 
+    if not isinstance(num, int) or num < 0:
+        raise TypeError("Input must be a non-negative integer.")
+
     chars: list[str] = string.digits + string.ascii_letters
 
     if num == 0:
