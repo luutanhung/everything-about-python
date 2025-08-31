@@ -6,3 +6,10 @@
 
 # MkDocs site
 site/
+
+# Python bytecode
+**/__pycache__
+*.pyc
+
+# uv cache
+**/.ruff_cache
