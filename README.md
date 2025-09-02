@@ -5,6 +5,7 @@
 </div>
 
 ## Table of Contents
+* [Recipes](#recipes)
 * [Lists](#lists)
     * [Declarations](#state-you-want-to-hold-a-bunch-of-items)
     * [Loop](#pay-a-visit-to-each-elements)
@@ -12,6 +13,11 @@
 * [Regex](#regex)
 * [License](#license)
 * [Authors](#authors)
+
+## Recipes
+This section provides practical code snippets for various common programming tasks, serving as a quick reference guide.
+- [Check File Existence](/security/check_file_existence.py)
+
 
 ## Lists
 
