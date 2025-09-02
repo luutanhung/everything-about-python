@@ -17,7 +17,7 @@
 ## Recipes
 This section provides practical code snippets for various common programming tasks, serving as a quick reference guide.
 - [Check File Existence](/security/check_file_existence.py)
-
+- [Check File Permissions](/security/check_file_permissions.py)
 
 ## Lists
 
