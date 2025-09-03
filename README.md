@@ -11,6 +11,8 @@
     * [Loop](#pay-a-visit-to-each-elements)
     * [Sort](#order-in-a-chaotic-world)
 * [Regex](#regex)
+* [Algorithm Problems](#algorithm-problems)
+    * [Two Pointers](#two-pointers)
 * [License](#license)
 * [Authors](#authors)
 
@@ -83,6 +85,13 @@ This section contains examples of regular expressions question to practice and s
 
 - [Extract numbers](/regex/extract_numbers.py)
 - [Extract three-digit numbers that are not immediately followed by a letter](/regex//three_digit_numbers_not_followed_by_a_letter.py)
+
+## Algorithm Problems
+This section provides a dedicated collection of algorithm problems I've successfully navigated. Consider this a practical reference for your coding interview preparation.
+
+### Two Pointers
+
+
 
 ## License
 
