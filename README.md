@@ -90,11 +90,9 @@ This section contains examples of regular expressions question to practice and s
 This section provides a dedicated collection of algorithm problems I've successfully navigated. Consider this a practical reference for your coding interview preparation.
 
 ### Two Pointers
-
-
+- [Maximum Sum of Distinct SubArrays With Length K](/problems/two_pointers/maximum_subarray_sum.py)
 
 ## License
-
 This project is distributed under MIT License. See [License.txt](/LICENSE.txt) for more details.
 
 ## Authors
